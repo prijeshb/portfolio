@@ -8,7 +8,7 @@ const projects = [
     title: "Hotel Review Analyzer",
     category: "AI / ML Deep Learning Pipeline",
     tools: "Python, NLTK, Flask, 1D-CNN, Word2Vec",
-    image: "/images/radix.png",
+    // image: "/images/radix.png",
   },
   {
     title: "Rental Web App (PWA)",

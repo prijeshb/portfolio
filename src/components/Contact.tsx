@@ -1,4 +1,6 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { SiGooglegemini } from "react-icons/si";
+import antigravityIcon from "../assets/antigravity-icon__full-color.png";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -38,7 +40,10 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Prijesh Bhingradiya</span>
+              Developed using <br /> 
+              <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", justifyContent: "center", marginTop: "10px" }}>
+                <img src={antigravityIcon} alt="Antigravity" width="20" height="20" style={{ objectFit: "contain" }} /> Antigravity & <SiGooglegemini style={{ color: "#8ab4f8", fontSize: "1.2em" }} /> Gemini
+              </span>
             </h2>
             <h5>
               <MdCopyright /> 2026
